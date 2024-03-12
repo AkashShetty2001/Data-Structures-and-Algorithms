@@ -1,8 +1,12 @@
 package recursion.Questions;
 
+/*
+ * Decresing Order
+ */
+
 public class Problem1 {
 	public static void main(String[] args) {
-		System.out.println("recursion");
+		//System.out.println("recursion");
 		print(10);
 	}
 	public static void print(int n) {
