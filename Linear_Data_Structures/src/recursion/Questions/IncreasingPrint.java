@@ -4,7 +4,7 @@ package recursion.Questions;
  * increasing Order
  */
 
-public class Problem2 {
+public class IncreasingPrint {
 	public static void main(String[] args) {
 		//System.out.println("recursion");
 		print(15);
