@@ -120,6 +120,26 @@ package linkedList.Implementaion;
 		
 		
 	}
+	
+	public static int removeAtparticulatIndex(int index) {
+		if(index==0) {
+			return removeFirst();
+		}else if(index==size -1) {
+			return removeLast();	
+		}
+		
+		Node prev=head;
+		int i=0;
+		while(i<index-1) {
+			prev=prev.next;
+			i++;
+		}
+		
+		int val=prev.next.data;
+		prev.next=prev.next.next;
+		size--;
+		return val;
+	}
 
 	
 	
@@ -154,8 +174,7 @@ public class SinglilyLinkedList extends LinkedList {
 		LinkedList.addAtMiddle(3, 3);
 		LinkedList.print();
 		
-		LinkedList.removeLast();
-		LinkedList.print();
+		
 		
 		
 		
