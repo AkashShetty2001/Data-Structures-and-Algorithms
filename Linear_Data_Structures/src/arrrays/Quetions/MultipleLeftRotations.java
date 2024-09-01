@@ -23,10 +23,17 @@ public class MultipleLeftRotations {
 	}
 	
 	public  static int[][] multipleLeftRotation(int[] A, int[] B) {
+		
+		
+		int n=A.length;
+        int m=B.length;
+//		for(int i=0;i<B.length;i++) {
+//			B[i]=n-B[i];
+//			System.out.println(B[i]);
+//		}
         //You Can Code Here
 
-        int n=A.length;
-        int m=B.length;
+        
 
         int ans[][] = new int[m][n];
 
