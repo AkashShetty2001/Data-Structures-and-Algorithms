@@ -39,6 +39,16 @@ public class L1_Questions {
 					
 			System.out.println("========================");
 			
+	//Q5 check greater among 2 numbers
+			System.out.println("Enter 2 numbers check which is greater.....");
+			int a=sc.nextInt();
+			int b=sc.nextInt();
+			if(a>b) {
+				System.out.println("Greater is:" + a);
+			}else {
+				System.out.println("Greater is:" + b);
+			}
+			
 		
 	}
 
