@@ -82,7 +82,7 @@ public class L3_Questions {
 //			 break;
 //			 
 //		default:
-//			System.out.println("Invalid day No");
+//			System.out.println("Invalid day No");		
 //				 
 //			 
 //		 }
