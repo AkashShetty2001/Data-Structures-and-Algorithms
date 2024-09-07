@@ -86,6 +86,49 @@ public class L3_Questions {
 //				 
 //			 
 //		 }
+		
+		//leap year
+//		System.out.println("Enter year..");
+//		int year=sc.nextInt();
+//		
+//		if(year % 4 == 0) {
+//			if(year % 100 == 0) {
+//				if(year % 400 == 0) {
+//					System.out.println("Leap Year");
+//				}else {
+//					System.out.println("Non Leap year");
+//				}
+//				
+//			}else {
+//				System.out.println("Leap year");
+//			}
+//			
+//		}else {
+//			System.out.println("Non Leap year");
+//		}
+		
+//		//shortend version of leap year code...
+//		if((year % 400 == 0) || (year % 4 == 0) && (year %100 != 0)){
+//			System.out.println("Leap Year");
+//		}else {
+//			System.out.println("Non Leap year..");
+//		}
+		
+//		//check if a characetr is alphabet or digit..
+//		System.out.println("enetr a character to check");
+//		char c=sc.next().charAt(0);
+//		
+//		int value=c;
+//		
+//		if((value >= 65 && value <=90)||(value>=97 && value <=122)) {
+//			System.out.println("Alphabet");
+//		}else if(value >= 48 && value<=57){
+//			System.out.println("Digits");
+//		}else {
+//			System.out.println("Special character");
+//		}
+		
+		
 	}
 
 }
