@@ -9,8 +9,9 @@ public class Syntax {
 		// present in util package
 		// it internally used dynamic array data structure..
 		// size grows like capacity * 2
+		// it is passed as an reference when we pass arrayList in an function
 		
-		ArrayList a1 = new ArrayList<>();
+		ArrayList<Integer> a1 = new ArrayList<>();
 		
 		// methods
 		//add() -> O(1)  to add elemetns in arrayList
